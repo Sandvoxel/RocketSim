@@ -21,6 +21,7 @@ public class Vector3 {
         return i + j + k;
     }
 
+    //Gets length of vector
     public float length(){
         return (float) Math.sqrt(Math.pow(x,2) + Math.pow(y,2) + Math.pow(z,2));
     }
